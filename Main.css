@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+	margin :0;
+	font-family : Roboto;
+	
+}
+
+header{
+	background-color:#FFC400;
+	padding: 0;
+	margin : 0;
+	display : grid;
+	grid-template-columns : 50vw 50vw;
+	height :14vh;
+	
+}
+
+img#Logo {
+	width : 13vw;
+	height : auto;
+	padding : 5vh 10vw 5vh 4vw;
+	
+}
+ul#nav{
+	list-style:none;
+	display : grid;
+	grid-template-columns : repeat(4,25%);
+	margin : 0;
+	padding: 5.3vh 0vh 0vh ;
+}
+.navlink{
+	text-decoration : none;
+	color : black;
+	font-weight : 700;
+	font-size :1.5vw;
+}
+main{
+	display:grid;
+	grid-template-columns : 60% 30%;
+}
+h1 {
+	margin: 10vh 0vw 0vh 2vw;
+	padding:0;
+	font-size :5vw;
+}
+h2{
+	margin:-3.8vh 0vw 0vh 4vw;
+	padding : 0;
+	font-size : 3.5vw;
+}
+p{
+	margin : 6vh 0vw 0vh 4vw;
+	font-size : 20;
+}
+div.cta{
+	margin : 6vh 0vw 0vh 20vw;
+	font-size : 25;
+	font-weight :200;
+	color:white;
+	background-color:#8800FF;
+	text-align: center;
+	width : 20%;
+	height : 50px;
+	border-radius : 55px 55px 55px 55px;
+	padding-top : 20px;
+	
+}
+a{
+	text-decoration:none;
+}
+img#text{
+	width : 28vw;
+	margin: 20vh 5vw 0vh 4vw;
+}
